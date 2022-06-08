@@ -24,6 +24,9 @@ public class DrinkMenuControler {
 
     @GetMapping
     public List<Product> getList(){
+
+
+        System.out.println("ahoj");
         return productRepository.findAll();
     }
 
